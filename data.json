@@ -1,15 +1,15 @@
 {
   "artist": {
     "name": "Yuhong Zhang",
-    "avatar": "/images/myImage.jpg",
+    "avatar": "/images/avatar.jpg",
     "shortBio": "Technical Artist",
     "socials": [
       {
-        "icon": "RiInstagramFill",
+        "icon": "FaInstagramSquare",
         "url": "https://www.instagram.com/irene0528/"
       },
       { "icon": "FaGithub", "url": "https://github.com/Ireneyuyuhong" },
-      { "icon": "AiTwotoneMail", "url": "yuhongz0528@126.com" }
+      { "icon": "FaEnvelope", "url": "yuhongz0528@126.com" }
     ]
   },
   "project": {
