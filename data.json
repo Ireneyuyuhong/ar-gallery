@@ -1,14 +1,15 @@
 {
   "artist": {
-    "name": "Michael Gold",
-    "avatar": "/images/avatar.jpg",
-    "shortBio": "Generative Artist",
+    "name": "Yuhong Zhang",
+    "avatar": "/images/myImage.jpg",
+    "shortBio": "Technical Artist",
     "socials": [
-      { "icon": "FaHome", "url": "https://mike.gold" },
-      { "icon": "FaTwitter", "url": "https://twitter.com/michaelgold" },
-      { "icon": "FaGithub", "url": "https://github.com/michaelgold" },
-      { "icon": "FaLinkedin", "url": "https://linkedin.com/in/gold1" },
-      { "icon": "FaUniversity", "url": "https://sva.edu/faculty/michael-gold" }
+      {
+        "icon": "RiInstagramFill",
+        "url": "https://www.instagram.com/irene0528/"
+      },
+      { "icon": "FaGithub", "url": "https://github.com/Ireneyuyuhong" },
+      { "icon": "AiTwotoneMail", "url": "yuhongz0528@126.com" }
     ]
   },
   "project": {
