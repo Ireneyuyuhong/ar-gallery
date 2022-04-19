@@ -94,9 +94,9 @@ const Model = (props: any) => {
         camera-orbit="0deg 90deg 0deg 8.37364m"
         alt="3D model"
         style={{
-          display: "flex"
-          //width: width,
-          //height: height
+          display: "flex",
+          width: width,
+          height: height
         }}
       >
         <Box

@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  background: #000000;
 }
 
 .main {
@@ -16,15 +15,17 @@
 }
 
 .footer {
-  width: 100%;
-  padding: 0 0 0;
-  background: #000000;
   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 .footer a {
   display: flex;
-  background: #000000;
   justify-content: center;
   align-items: center;
   flex-grow: 1;

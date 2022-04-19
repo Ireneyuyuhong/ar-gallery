@@ -2,17 +2,20 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #000000;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
   color: inherit;
+  background-color: #000000;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+  background-color: #000000;
 }
 
 model-viewer {

@@ -64,7 +64,7 @@ export const Footer = () => (
     as="footer"
     width="100%"
     py={{ base: "12", md: "16" }}
-    backgroundColor="Black"
+    //backgroundColor="Black"
   >
     <Flex justify={"center"}>
       <Text fontSize="sm" color="#f7d5ef">
@@ -102,7 +102,7 @@ const Home: NextPage = (props: any) => {
             src={"/images/avatar.jpg"}
             // alt={"Author"}
             css={{
-              border: "2px solid white"
+              border: "2px solid #ff83e2"
             }}
           />
         </Flex>
