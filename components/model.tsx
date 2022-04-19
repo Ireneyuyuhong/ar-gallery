@@ -37,10 +37,10 @@ const Model = (props: any) => {
     "(min-width: 30em)",
     "(min-width: 48em)",
     "(min-width: 62em)",
-    "(min-width: 80em)",
+    "(min-width: 80em)"
   ]);
 
-  const [width, setWidth] = useState("20em");
+  const [width, setWidth] = useState("10em");
   const [height, setHeight] = useState("20em");
   useEffect(() => {
     let w = "20em";
@@ -75,10 +75,7 @@ const Model = (props: any) => {
       h={height}
       style={{
         backgroundImage: `url(${props.imageUrl})`,
-        backgroundRepeat: "no-repeat",
-
-        // width: "100vw",
-        // height: "100vw",
+        backgroundRepeat: "no-repeat"
       }}
     >
       <model-viewer
@@ -97,9 +94,9 @@ const Model = (props: any) => {
         camera-orbit="0deg 90deg 0deg 8.37364m"
         alt="3D model"
         style={{
-          display: "block",
-          width: width,
-          height: height,
+          display: "flex"
+          //width: width,
+          //height: height
         }}
       >
         <Box

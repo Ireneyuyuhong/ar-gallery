@@ -19,7 +19,7 @@ import {
   propNames,
   SimpleGrid,
   Stack,
-  Text,
+  Text
 } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import Link from "next/link";
@@ -33,7 +33,7 @@ const Models = (props: any) => {
     <CardModel key={idx} model={model}></CardModel>
   ));
   return (
-    <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 5, lg: 8 }}>
+    <SimpleGrid columns={{ base: 2, md: 4 }} spacing={{ base: 5, lg: 8 }}>
       {displayModels}{" "}
     </SimpleGrid>
   );
@@ -49,7 +49,7 @@ const Social = (props: any) => {
   return (
     <Box px={2}>
       <IconContext.Provider
-        value={{ color: "#999999", className: "global-class-name" }}
+        value={{ color: "#ff83e2", className: "global-class-name" }}
       >
         <Link href={social.url}>
           <a>{icon}</a>
@@ -60,9 +60,14 @@ const Social = (props: any) => {
 };
 
 export const Footer = () => (
-  <Container as="footer" role="contentinfo" py={{ base: "12", md: "16" }}>
+  <Container
+    as="footer"
+    width="100%"
+    py={{ base: "12", md: "16" }}
+    backgroundColor="Black"
+  >
     <Flex justify={"center"}>
-      <Text fontSize="sm" color="subtle">
+      <Text fontSize="sm" color="#f7d5ef">
         <Link href={"https://github.com/michaelgold/nextjs-ar-gallery"}>
           <a>AR Example Template</a>
         </Link>{" "}
@@ -97,7 +102,7 @@ const Home: NextPage = (props: any) => {
             src={"/images/avatar.jpg"}
             // alt={"Author"}
             css={{
-              border: "2px solid white",
+              border: "2px solid white"
             }}
           />
         </Flex>
@@ -107,13 +112,13 @@ const Home: NextPage = (props: any) => {
             <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
               {props.data.artist.name}
             </Heading>
-            <Text color={"gray.500"}>{props.data.artist.shortBio}</Text>
+            <Text color={"#b880e6"}>{props.data.artist.shortBio}</Text>
             <Socials data={props.data} />
           </Stack>
         </Box>
         <Stack>
           <Flex alignItems={"center"} justify={"center"}>
-            <Heading as="h1" textAlign={"center"} size="4xl">
+            <Heading as="h1" textAlign={"center"} size="4xl" color="#b880e6">
               {props.data.project.name}
             </Heading>
           </Flex>

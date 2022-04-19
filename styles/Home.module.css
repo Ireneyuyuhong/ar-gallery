@@ -1,11 +1,14 @@
 .container {
-  padding: 0 2rem;
+  width: 100%;
+  background: #000000;
 }
 
 .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
+  color: #ff83e2;
+  background: #000000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,51 +16,55 @@
 }
 
 .footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  padding: 0 0 0;
+  background: #000000;
+  position: fixed;
 }
 
 .footer a {
   display: flex;
+  background: #000000;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
 }
 
 .title a {
-  color: #0070f3;
+  color: #b880e6;
   text-decoration: none;
+  background: #000000;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  background: #000000;
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  background: #000000;
 }
 
 .title,
 .description {
   text-align: center;
+  background: #000000;
 }
 
 .description {
+  background: #000000;
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 
 .code {
-  background: #fafafa;
+  background: #0a0a0a;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -67,10 +74,13 @@
 
 .grid {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background: #000000;
+  /*align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  flex-wrap: wrap;*/
 }
 
 .card {
@@ -79,10 +89,11 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #0a0a0a;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 200px;
+  background: #000000;
 }
 
 .card:hover,
@@ -90,27 +101,32 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  background: #000000;
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  background: #000000;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  background: #000000;
 }
 
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  background: #000000;
 }
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
+    background: #000000;
   }
 }

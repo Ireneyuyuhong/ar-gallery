@@ -10,7 +10,7 @@ import {
   Stat,
   StatLabel,
   StatNumber,
-  useColorModeValue,
+  useColorModeValue
 } from "@chakra-ui/react";
 
 import dynamic from "next/dynamic";
@@ -21,11 +21,12 @@ const Attribute = (props: any) => {
   const trait_type = attribute.trait_type;
   const value = attribute.value;
   return (
-    <Stat px={{ base: 4, md: 8 }} py={"2"} shadow={"md"} rounded={"lg"}>
+    <Stat px={{ base: 4, md: 8 }} py={"4"} shadow={"md"} rounded={"lg"}>
       <StatLabel
         textTransform={"uppercase"}
         fontWeight={"medium"}
         fontSize={"xx-small"}
+        color={"#b880e6"}
         isTruncated
       >
         {trait_type}
@@ -48,7 +49,7 @@ const AttributeList = (props: any) => {
     <Attribute key={idx} attribute={attribute}></Attribute>
   ));
   return (
-    <SimpleGrid columns={{ base: 2 }} spacing={{ base: 5, lg: 8 }}>
+    <SimpleGrid columns={{ base: 1 }} spacing={{ base: 5, lg: 8 }}>
       {displayAttributes}
     </SimpleGrid>
   );
@@ -60,7 +61,7 @@ export default function CardModel(props: any) {
       <Box
         role={"group"}
         p={6}
-        bg={useColorModeValue("white", "gray.800")}
+        bg={useColorModeValue("Black", "gray.800")}
         boxShadow={"2xl"}
         rounded={"lg"}
         pos={"relative"}
