@@ -18,7 +18,7 @@
   "models": [
     {
       "name": "Gold Cube",
-      "glbFile": "/assets/magic16.glb",
+      "glbFile": "/assets/magic8.glb",
       "attributes": [
         { "trait_type": "shape", "value": "Sphere" },
         { "trait_type": "wave", "value": "Loose" },
