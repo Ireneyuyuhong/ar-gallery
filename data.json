@@ -38,12 +38,12 @@
     },
     {
       "name": "Red Cube",
-      "glbFile": "/assets/magic16.glb",
+      "glbFile": "/assets/magic9.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "Diamond" },
-        { "trait_type": "wave", "value": "close" },
-        { "trait_type": "color", "value": "Pink" },
-        { "trait_type": "material", "value": "Metallic" }
+        { "trait_type": "shape", "value": "Heart" },
+        { "trait_type": "wave", "value": "Loose" },
+        { "trait_type": "color", "value": "Light Yellow" },
+        { "trait_type": "material", "value": "High Roughness" }
       ]
     },
     {
