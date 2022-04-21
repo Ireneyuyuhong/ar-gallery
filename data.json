@@ -18,42 +18,42 @@
   "models": [
     {
       "name": "Gold Cube",
-      "glbFile": "/assets/gold-cube.glb",
+      "glbFile": "/assets/magic16.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "gold" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "shape", "value": "Sphere" },
+        { "trait_type": "wave", "value": "Loose" },
+        { "trait_type": "color", "value": "Light Blue" },
+        { "trait_type": "material", "value": "High Roughness" }
       ]
     },
     {
       "name": "Silver Cube",
-      "glbFile": "/assets/silver-cube.glb",
+      "glbFile": "/assets/magic16.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "silver" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "shape", "value": "Heart" },
+        { "trait_type": "wave", "value": "Loose" },
+        { "trait_type": "color", "value": "Light Yellow" },
+        { "trait_type": "material", "value": "High Roughness" }
       ]
     },
     {
       "name": "Red Cube",
-      "glbFile": "/assets/red-cube.glb",
+      "glbFile": "/assets/magic16.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "red" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "shape", "value": "Diamond" },
+        { "trait_type": "wave", "value": "close" },
+        { "trait_type": "color", "value": "Pink" },
+        { "trait_type": "material", "value": "Metallic" }
       ]
     },
     {
       "name": "Green Cube",
-      "glbFile": "/assets/green-cube.glb",
+      "glbFile": "/assets/magic16.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "green" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "shape", "value": "Sphere" },
+        { "trait_type": "wave", "value": "Loose" },
+        { "trait_type": "color", "value": "Light Blue" },
+        { "trait_type": "material", "value": "Low Roughness" }
       ]
     }
   ]
